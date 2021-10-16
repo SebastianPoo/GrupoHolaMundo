@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1491400450 source:c:\users\maximiliano\desktop\holamundo\grupoholamundo\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1491400450 source:e:\sebastian\utn\programacion\codigos-1ºcuatri\tpfinal\grupoholamundo\grupoholamundo\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1624665436 source:e:\sebastian\utn\programacion\codigos-1ºcuatri\tpfinal\grupoholamundo\grupoholamundo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
+1491400450 source:c:\users\maximiliano\desktop\grupoholamundo\grupoholamundo\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1624665436 source:c:\users\maximiliano\desktop\grupoholamundo\grupoholamundo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
+1491400450 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1634413103 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"clientes.h"
+	"consumos.h"
+
+1634412606 c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\clientes.h
+
+1634412988 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\clientes.c
+	"clientes.h"
+	"consumos.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
+1634412873 c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\consumos.h
+
+1634413061 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\consumos.c
+	"clientes.h"
+	"consumos.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+

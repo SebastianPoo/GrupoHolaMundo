@@ -31,13 +31,33 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="celdaConsumo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="celdaConsumo.h" />
+		<Unit filename="clientes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="clientes.h" />
+		<Unit filename="consumos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="consumos.h" />
 		<Unit filename="gotoxy.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="gotoxy.h" />
+		<Unit filename="listaConsumo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="listaConsumo.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="menus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menus.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -31,29 +31,43 @@
 	<stdlib.h>
 	<windows.h>
 
-1634413103 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\main.c
+1634414378 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<conio.h>
 	"clientes.h"
 	"consumos.h"
+	"menus.h"
 
 1634412606 c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\clientes.h
 
-1634412988 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\clientes.c
+1634413528 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\clientes.c
 	"clientes.h"
 	"consumos.h"
+	"menus.h"
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<conio.h>
 
-1634412873 c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\consumos.h
+1635114496 c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\consumos.h
 
-1634413061 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\consumos.c
+1634413517 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\consumos.c
 	"clientes.h"
 	"consumos.h"
+	"menus.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
+1634413454 c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\menus.h
+
+1634413509 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\menus.c
+	"clientes.h"
+	"consumos.h"
+	"menus.h"
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

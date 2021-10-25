@@ -37,6 +37,7 @@ int buscaPos (int numClient);
 void mostrarXFecha(char archivoConsumo[]);
 void cambiaConsumo(char archivoConsumo []);
 void muestraConsumoPorIdCliente (int idClien);
+void muestraUnConsumo (stConsumos consumo);
 
         ///MUESTRA///
 void buscaClienteApellido (char archivoClientes [],char apellido[]);

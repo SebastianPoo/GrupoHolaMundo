@@ -87,3 +87,16 @@
 1635120940 c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\listaconsumo.h
 	"consumos.h"
 
+1635121328 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\celdaconsumo.c
+	"celdaConsumo.h"
+	"clientes.h"
+	"consumos.h"
+	"menus.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
+1635121395 c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\celdaconsumo.h
+	"listaConsumo.h"
+

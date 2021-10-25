@@ -1,6 +1,6 @@
 #ifndef CONSUMOS_H_INCLUDED
 #define CONSUMOS_H_INCLUDED
-
+#include "clientes.h"
 typedef struct{
     int id;
     int idCliente;

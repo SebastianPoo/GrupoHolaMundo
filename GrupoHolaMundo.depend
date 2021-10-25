@@ -51,7 +51,8 @@
 	<string.h>
 	<conio.h>
 
-1635114496 c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\consumos.h
+1635121188 c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\consumos.h
+	"clientes.h"
 
 1634413517 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\consumos.c
 	"clientes.h"
@@ -72,4 +73,17 @@
 	<stdlib.h>
 	<string.h>
 	<conio.h>
+
+1635121197 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\listaconsumo.c
+	"clientes.h"
+	"consumos.h"
+	"menus.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"listaConsumo.h"
+
+1635120940 c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\listaconsumo.h
+	"consumos.h"
 

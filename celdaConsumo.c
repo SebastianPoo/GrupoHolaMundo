@@ -1,4 +1,4 @@
-#include "celdaConsumo.h
+#include "celdaConsumo.h"
 #include "clientes.h"
 #include "consumos.h"
 #include "menus.h"
@@ -7,15 +7,15 @@
 #include <string.h>
 #include <conio.h>
 int alta(stCelda adl[], stConsumos e, int validos){
-    nodo* nuevo = crearNodoLista(e);
-    int pos = buscarPosEmpleado(adl, validos, e.id);
+    nodoLista* nuevo = crearNodoLista(e);
+    int pos = buscarPorID(adl, validos, e.id);
 
     if(pos == -1){
         validos = agregarEnArreglo(adl, validos, e.id);
         pos = validos - 1;
     }
 
-    adl[pos].listaEmpleados = agregarAlPrincipio(adl[pos].listaEmpleados, nuevo);
+    adl[pos].listaConsumos = agregarAlPrincipio(adl[pos].listaConsumos, nuevo);
 
     return validos;
 }
@@ -35,7 +35,7 @@ int buscarPorID(stCelda adl[], int validos, int id){
 
 int agregarEnArreglo(stCelda adl[], int validos, int id){
      adl[validos].id = id;
-    adl[validos].listaEmpleados = inicLista();
+    adl[validos].listaConsumos = inicLista();
     validos++;
     return validos;
 }

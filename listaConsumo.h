@@ -1,6 +1,6 @@
 #ifndef LISTACONSUMO_H_INCLUDED
 #define LISTACONSUMO_H_INCLUDED
-
+#include "consumos.h"
 typedef struct _nodoLista{
  	stConsumos dato;
     struct _nodoLista* sig;

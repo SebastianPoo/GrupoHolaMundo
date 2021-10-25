@@ -46,14 +46,14 @@ nodoLista* agregarEnOrdenPorID(nodoLista* lista, nodoLista* nuevoNodo){
         if(nuevoNodo->dato.id <= lista->dato.id){
             lista = agregarAlPrincipio(lista, nuevoNodo);
         }else{
-            nodo* ante = lista;
-            nodo* seg = lista->siguiente;
-            while(seg != NULL && nuevoNodo->dato.id => seg->dato.id){
+            nodoLista* ante = lista;
+            nodoLista* seg = lista->sig;
+            while(seg != NULL && nuevoNodo->dato.id >= seg->dato.id){
                 ante = seg;
-                seg = seg->siguiente;
+                seg = seg->sig;
             }
-            ante->siguiente = nuevoNodo;
-            nuevoNodo->siguiente = seg;
+            ante->sig = nuevoNodo;
+            nuevoNodo->sig = seg;
         }
     }
 
@@ -65,7 +65,7 @@ nodoLista* archivo2lista(nodoLista* lista, char archivo[]){
     stConsumos e;
     if(archi){
         while(fread(&e, sizeof(stConsumos), 1, archi)>0){
-                nodo *nuevo = crearNodoLista(e);
+                nodoLista *nuevo = crearNodoLista(e);
                 ///lista = agregarAlFinal(lista, nuevo);
                 ///lista = agregarAlPrincipio(lista, nuevo);
                 lista = agregarEnOrdenPorID(lista, nuevo);

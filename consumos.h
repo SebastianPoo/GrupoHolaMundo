@@ -38,6 +38,7 @@ void mostrarXFecha(char archivoConsumo[]);
 void cambiaConsumo(char archivoConsumo []);
 void muestraConsumoPorIdCliente (int idClien);
 void muestraUnConsumo (stConsumos consumo);
+void despersistenciaConsumos(stConsumos consumos[], int* validos);
 
         ///MUESTRA///
 void buscaClienteApellido (char archivoClientes [],char apellido[]);

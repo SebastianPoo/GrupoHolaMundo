@@ -383,3 +383,16 @@ stClientes buscaPorId ( int id){
         }
     return cliente;
 }
+
+void despersistenciaConsumos(stConsumos consumos[], int* validos){
+    FILE* pArch = fopen(nomArchiConsumos,"rb");
+    stConsumos p;
+
+    if (pArch != NULL){
+        while (fread(&p,sizeof(stConsumos),1,pArch) > 0){
+            consumos[*validos] = p;
+            (*validos)++;
+        }
+        fclose(pArch);
+    }
+}

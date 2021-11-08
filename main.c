@@ -9,6 +9,8 @@
 #include "clientes.h"
 #include "consumos.h"
 #include "menus.h"
+#include "arbolClientes.h"
+#include "celdaConsumo.h"
 
 
 ///---------------------------------------------------------------------------------------------------------------------------////
@@ -26,11 +28,15 @@ int main()
     char apellidoBusca[1];
     stClientes clienteExi;
     stClientes arregloClientes [50];
+    stConsumos arregloConsumos[100]; /// para utilizar en la funcion consumoToCelda
+    stCelda* celdaConsumo[100];
+    int vCeldaConsumo=0;
     int numCliente=-1;
     int posicion=-1;
     int clienteN=-1;
     int salir=-1;
     int vClientes=0;
+    int vConsumos=0;
     int idModicar=0;
     ///Aleatorio prueba///
     int clienteRegistro;
@@ -38,6 +44,7 @@ int main()
     int diaRan;
     stClientes stClienteRan;
     int i =0;
+    nodoArbol* arbolclientes= inicArbol();
 
     FILE*archivoEstado;
     do {
@@ -421,6 +428,21 @@ int main()
         break;
             case '7':                       /// BORRA DEL ARCHIVO TODOS LOS CLIENTES INACTIVOS///
                         printf("\n!!!CUIDADO!!!! SEGURO DESEA BORRAR DE LA BASE DE DATOS LOS CLIENTES INACTIVOS\n");
+                        break;
+            case '8':    /// PASAR ARCHIVO A ARBOL ///
+
+
+                      despersistencia(arregloClientes,&vClientes);
+                      despersistenciaConsumos(arregloConsumos,&vConsumos);
+                      printf("\n %d \n", vClientes);
+                      printf("\n %d \n", vConsumos);
+                      arbolclientes=archivo2adl2(arregloClientes,arregloConsumos, vClientes, vConsumos);
+                      enOrdenPersona(arbolclientes);
+
+                      break;
+         ///  case '9':                        /// PASA CONSUMOS A UNA CELDA ///
+            ///            despersistencia(arregloConsumos, &vConsumos);
+              ///          celdaConsumo=ConsumosToCelda(arregloConsumos, vConsumos, celdaConsumo[100], &vCeldaConsumo);
 
         }
         printf("\n");

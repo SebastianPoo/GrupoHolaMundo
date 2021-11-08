@@ -31,7 +31,7 @@
 	<stdlib.h>
 	<windows.h>
 
-1634414378 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\main.c
+1636383483 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -39,6 +39,8 @@
 	"clientes.h"
 	"consumos.h"
 	"menus.h"
+	"arbolClientes.h"
+	"celdaConsumo.h"
 
 1634412606 c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\clientes.h
 
@@ -51,10 +53,10 @@
 	<string.h>
 	<conio.h>
 
-1635121188 c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\consumos.h
+1636382738 c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\consumos.h
 	"clientes.h"
 
-1634413517 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\consumos.c
+1636382729 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\consumos.c
 	"clientes.h"
 	"consumos.h"
 	"menus.h"
@@ -65,7 +67,7 @@
 
 1634413454 c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\menus.h
 
-1634413509 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\menus.c
+1636313580 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\menus.c
 	"clientes.h"
 	"consumos.h"
 	"menus.h"
@@ -87,7 +89,7 @@
 1635120940 c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\listaconsumo.h
 	"consumos.h"
 
-1635121328 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\celdaconsumo.c
+1636377586 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\celdaconsumo.c
 	"celdaConsumo.h"
 	"clientes.h"
 	"consumos.h"
@@ -97,6 +99,21 @@
 	<string.h>
 	<conio.h>
 
-1635121395 c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\celdaconsumo.h
+1636377586 c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\celdaconsumo.h
+	"listaConsumo.h"
+
+1636383406 source:c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\arbolclientes.c
+	"clientes.h"
+	"consumos.h"
+	"menus.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"listaConsumo.h"
+	"arbolClientes.h"
+
+1636382527 c:\users\maximiliano\desktop\utn curso ingreso\grupoholamundo\grupoholamundo\arbolclientes.h
+	"clientes.h"
 	"listaConsumo.h"
 

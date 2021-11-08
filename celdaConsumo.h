@@ -5,10 +5,11 @@
 typedef struct{
     int id;
     nodoLista* listaConsumos;
+
 }stCelda;
 
-int buscarPosEmpleado(stCelda adl[], int validos, int id);
-int agregarEnArreglo(stCelda adl[], int validos, int id);
-int buscarPorID(stCelda adl[], int validos, int id);
-int buscarPorID(stCelda adl[], int validos, int id);
+int agregarEnArreglo(stCelda* adl, int validos, int id);
+int altaCelda(stCelda* adl, stConsumos e, int validos);
+int buscarPorID(stCelda* adl, int validos, int id);
+stCelda* ConsumosToCelda (stConsumos consumos[], int vConsumos, stCelda* celdas, int** vCeldas);
 #endif // CELDACONSUMO_H_INCLUDED

@@ -26,6 +26,8 @@ char menuInicial()
     printf("\n 5 - REALIZA BACKUP DE LOS CLIENTES");
     printf("\n 6 - ACTIVA ESTADO DE TODOS LOS CLIENTES");
     printf("\n 7 - BORRAR TODOS LOS CLIENTES INACTIVOS");
+    printf("\n 8 - PASAR CLIENTES A ARBOL");
+    printf("\n 9 - PASAR CONSUMOS A CELDAS");
 
 
 
